@@ -1,0 +1,17 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$body-background-color: #CBB3BF;
+$light-blue: #8DA1B9;
+$light-green: #95ADB6;
+$light-skin: #DBC7BE;
+$dark-rose: #EF959C;
+
+footer {
+    font-size: 0.8em;
+    font-family: $font-stack;
+    background-color: $light-blue;
+    color: $light-skin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 40px;
+}

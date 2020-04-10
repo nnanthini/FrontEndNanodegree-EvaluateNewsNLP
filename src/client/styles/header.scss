@@ -1,0 +1,34 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$body-background-color: #CBB3BF;
+$light-blue: #8DA1B9;
+$light-green: #95ADB6;
+$light-skin: #DBC7BE;
+$dark-rose: #EF959C;
+
+header {
+    font-size: 1.2em;
+    font-family: $font-stack;
+    background-color: $light-blue;
+    color: $light-skin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+    
+}
+
+#logo-text {
+    border: 2px solid $light-skin;
+    background: $light-skin;
+    padding: 5px 5px;
+    color: $dark-rose;
+}
+
+#header-nav{    
+    a {
+        font-size: 1.2em;
+        display: inline;
+        padding: 5px 5px;                
+    }
+}
